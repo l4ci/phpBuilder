@@ -1,0 +1,1 @@
+<footer>&copy; <?=date('Y')?> by Someone</footer>
