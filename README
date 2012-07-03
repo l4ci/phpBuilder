@@ -8,7 +8,6 @@ mail: hello@volkerotto.net
 
 
 ## What is this?
-
 Basically just a collection of stuff (php functions) I really use a lot in different web-projects.
 Im always working on it, to create a 'kinda'-phpFramework for my personal needs.
 
@@ -17,7 +16,6 @@ Im always working on it, to create a 'kinda'-phpFramework for my personal needs.
 All you do is build your site structure and css file. I am working with CodeKit (https://incident57.com/codekit/), that's why there is a .less AND .css file. You cut the static parts into snippets (so you can re-use them easily) and you fill content in the different pages, where home.php in /content is your starting page.
 
 Open the config.php to configure some functions, or delete unneeded ones from the index.php.
-
 
 - auto including function/lib files from /lib
 - auto including any js file from /js
@@ -37,10 +35,10 @@ snippet		: implements a snippet file from /snippets folder
 downloadFile	: make a file downloadable
 
 ### helper.php
-go	: shorter header("Location: ");
-cut	: shorter substr
-urlify	: creates nice urls
-email	: checks for valid email
+go		: shorter header("Location: ");
+cut		: shorter substr
+urlify		: creates nice urls
+email		: checks for valid email
 url		: checks for valid url
 	
 ### lang.php
@@ -49,8 +47,8 @@ init_lang	: For different language support, create language files (en/de/fr/etc.
 ### session.php
 
 ### sql.php
-last_id	: returns last inserted id
-fetch	: shorter mysql_fetch_array()
+last_id		: returns last inserted id
+fetch		: shorter mysql_fetch_array()
 
 ### various.php functions
 init_google	: adds the google analytics code (need to enter your id in config, or as parameter)
@@ -58,3 +56,7 @@ init_addthis	: add the addthis.com sharing code
 bitly		: creates a bit.ly url (need to enter your login&api key)
 get_gravatar 	: returns the url to the gravatar image (if available for email address)
 no_javascript	: creates a link to enable-javascript.com, if javascript is disabled
+
+
+# Credits:
+HTML5 CSS Boilerplate - h5bp.com/css

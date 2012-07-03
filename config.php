@@ -7,7 +7,7 @@ if(!isset($root)) die('Direct access is not allowed');
  */
 
 define("AUTOR" , "Volker Otto"); // Your name - obviously 
-define("FULLURL" , "http://"); // full url - WITH http://
+define("FULLURL" , "http://phpbuilder.webatu.com"); // full url - WITH http://www.blabla.com - NO ending SLASH
  
 
 /**

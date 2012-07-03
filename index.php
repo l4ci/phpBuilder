@@ -19,7 +19,7 @@
 	<meta name="description" content="">
 	<meta name="author" content="">
 	
-	<link rel="stylesheet/less" type="text/css" href="css/styles.css">
+	<link rel="stylesheet/css" type="text/css" href="<?=FULLURL?>/css/style.css">
 	
 	</head>
 	<!--[if lt IE 7 ]> <body class="ie6"> <![endif]-->
@@ -45,7 +45,7 @@
 		            $pathinfo = pathinfo($file); 
 		            $ext = $pathinfo["extension"];  
 		            if ($ext == "js"){
-		            	echo "<script src='js/".$file."' type='text/javascript'></script>";
+		            	echo "<script src='".FULLURL."/js/".$file."' type='text/javascript'></script>";
 		            }
 		        }
 		        closedir($dh);
