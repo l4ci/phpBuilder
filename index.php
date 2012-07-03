@@ -1,6 +1,8 @@
 <?php
 	$root = $_SERVER['DOCUMENT_ROOT'];
 	ob_start();
+	
+	require_once("config.php");
 	require_once("lib.php");	  	
   	
   	init_lang();
@@ -11,7 +13,7 @@
 	<meta charset="utf-8"/>
 	<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge;chrome=1"><![endif]-->
 	
-	<title></title>
+	<title>phpBuilder - early alpha preview</title>
 	
 	<meta name="robots" content="index, follow">
 	<meta name="description" content="">

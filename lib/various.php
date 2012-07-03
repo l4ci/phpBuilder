@@ -6,7 +6,7 @@ if(!isset($root)) die('Direct access is not allowed');
  *
  * Bindet den Google Analytics Code ein - Variable ID für den TrackingCode
  */
-function init_google($id){
+function init_google($id = GOOGLE){
 	echo "<script type='text/javascript'>
 			var _gaq = _gaq || [];
 			_gaq.push(['_setAccount', '".$id."']);
