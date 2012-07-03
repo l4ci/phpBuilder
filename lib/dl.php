@@ -51,7 +51,7 @@ function downloadFile($fullPath,$filename=false){
     readfile( $fullPath ); 
 
   } else 
-    die('File Not Found'); 
+    error('File Not Found'); 
 
 } 
 ?>

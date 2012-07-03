@@ -43,8 +43,8 @@ function init_addthis(){
  */
 function bitly($url,$format = 'xml',$version = '2.0.1'){
 	//Set up account info
-	$bitly_login = 'LOGINNAME';
-	$bitly_api = 'API KEY';
+	$bitly_login = BITLY_LOGIN;
+	$bitly_api = BITLY_API;
 	//create the URL
 	$bitly = 'http://api.bit.ly/shorten?version='.$version.'&longUrl='.urlencode($url).'&login='.$bitly_login.'&apiKey='.$bitly_api.'&format='.$format;
 	//get the url
