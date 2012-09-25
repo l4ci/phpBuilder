@@ -86,6 +86,7 @@ function get_gravatar( $email, $s = 80, $d = 'mm', $r = 'g', $img = false, $atts
 
 /**
  * no javascript
+ * more on http://enable-javascript.com/
  */
 function no_javascript(){
 	echo '<noscript>
@@ -93,5 +94,19 @@ function no_javascript(){
 	  Here are the <a href="http://www.enable-javascript.com/" target="_blank">
 	  instructions how to enable JavaScript in your web browser</a>.
 	</noscript>';
+}
+
+/**
+ * IE 6 Countdown
+ * more on http://www.ie6countdown.com/
+ */
+function ie6_countdown(){
+	echo '<!--[if lt IE 7]> 
+		<div style="clear: both; height: 59px; padding:0 0 0 15px; position: relative;"> 
+			<a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+				<img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+			</a>
+		</div> 
+		<![endif]-->';
 }
 ?>

@@ -30,7 +30,7 @@ function init_lang(){
 	$_SESSION['lang'] = $lang;
 	
 	// get available language files in /lang
-	$dir = openDir("lang");
+	$dir = openDir($path["lang"]);
 	$ll = array();
 	while($file = readDir($dir)){
 		if ($file != "." && $file != ".."){
@@ -49,10 +49,10 @@ function init_lang(){
 	// check if language file is available for browser language
 	if (in_array($lang,$ll)){
 		// yes - include it
-		include("lang/".$lang.".php");
+		include($path["lang"]."/".$lang.".php");
 	}else{
 		// include default language file (en.php)
-		include("lang/en.php");
+		include($path["lang"]."/en.php");
 	}
 	
 }

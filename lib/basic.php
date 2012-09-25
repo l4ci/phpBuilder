@@ -19,7 +19,7 @@ function init_content(){
 		$content = htmlspecialchars($_GET['c']);
 		
 		// get available content files in /content
-		$dir = openDir("content");
+		$dir = openDir($path["content"]);
 		$cc = array();
 		while($file = readDir($dir)){
 			if ($file != "." && $file != ".."){
@@ -31,13 +31,13 @@ function init_content(){
 		// check if content file is available
 		if (in_array($content,$cc)){
 			// yes - include it
-			include("content/".$content.".php");
+			include($path["content"]."/".$content.".php");
 		}else{
 			// include default content file
-			include("content/home.php");
+			include($path["content"]."/home.php");
 		}
 	}else{
-		include("content/home.php");
+		include($path["content"]."/home.php");
 	}	
 }
 /**
@@ -66,7 +66,7 @@ function snippet($s){
 	global $t;
 
 	// get available snippet files in /snippet
-	$dir = openDir("snippet");
+	$dir = openDir($path["snippet"]);
 	$cc = array();
 	while($file = readDir($dir)){
 		if ($file != "." && $file != ".."){
@@ -78,9 +78,28 @@ function snippet($s){
 	// check if snippet file is available
 	if (in_array($s,$cc)){
 		// yes - include it
-		include("snippet/".$s.".php");
+		include($path["snippet"]."/".$s.".php");
 	}else{
 		error("Snippet ".$s." is missing!");
+	}
+}
+/**
+ * init_js
+ * Läd alle JS files in /js
+ */
+function init_js(){
+	$dir = $path["js"].'/';
+	if (is_dir($dir)) {
+	    if ($dh = opendir($dir)) {
+	        while (($file = readdir($dh)) !== false) {
+	            $pathinfo = pathinfo($file); 
+	            $ext = $pathinfo["extension"];  
+	            if ($ext == "js"){
+	            	echo "<script src='".FULLURL."/".$path["js"]."/".$file."' type='text/javascript'></script>";
+	            }
+	        }
+	        closedir($dh);
+	    }
 	}
 }
 ?>
