@@ -1,3 +1,19 @@
+<?php snippet('html_head'); ?>
+<?php 
+/**
+ * elements.php
+ * 
+ * any html element you can style is here
+ * see if you missed some.
+ * 
+ * @author Volker Otto <hello@volkerotto.net>
+ * @link https://github.com/l4ci/phpBuilder
+ * @copyright Copyright 2009-2013 Volker Otto
+ * @license http://www.opensource.org/licenses/mit-license.php MIT License
+ * @package phpBuilder
+ *  
+ */
+ ?>
   <h1>Title 01 Heading</h1>
   <hr />
   <h3>Level 03 Heading</h3>
@@ -301,3 +317,5 @@
   </fieldset>
 
 </form>
+
+<?php snippet('html_foot'); ?>
