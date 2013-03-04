@@ -18,10 +18,11 @@ phpBuilder likes PHP 5, Apache on unix systems and MySQL. Everything else is not
 - Version: phpBuilder 0.5
 - License: [MIT License][license]
 - Copyright: 2009-2013 Volker Otto
-- Web: volkerotto.net
+- Web: [volkerotto.net][web]
 - Mail: hello@volkerotto.net
 - Twitter: [@hellovolker][twitter]
 
+[web]: http://volkerotto.net
 [license]: http://opensource.org/licenses/mit-license.php
 [twitter]: http://twitter.com/hellovolker
 [download]: https://github.com/l4ci/phpBuilder/archive/master.zip
