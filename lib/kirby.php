@@ -1,5 +1,4 @@
 <?php
-if(!isset($root)) die('Direct access is not allowed');
 
 /**
  * Kirby -- A stripped down and easy to use toolkit for PHP

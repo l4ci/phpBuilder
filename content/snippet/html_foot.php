@@ -1,7 +1,13 @@
+<!-- jQuery -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="assets/script/jquery-1.9.1.min.js"><\/script>')</script>
+
+<!-- formalize.min.js -->
+<script src="assets/script/jquery.formalize.min.js"></script>
+<!-- main.js file -->
 <script src="assets/script/main.js"></script>
 
+<!-- Google Analytics -->
 <script>
     var _gaq=[['_setAccount','<?=c::get('site.googleanalytics')?>'],['_trackPageview']];
     (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];

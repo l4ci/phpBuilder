@@ -8,9 +8,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width">
     <title><?=c::get('site.name')?></title>
+    <!-- normalize.css -->
 	<link rel="stylesheet" href="assets/css/normalize.css">
+	<!-- formalize.css -->
+	<link rel="stylesheet" href="assets/css/formalize.css">
+	<!-- style.css -->
     <link rel="stylesheet" href="assets/css/style.css">
 	
+	<!-- modernizr.js -->
 	<script src="assets/script/modernizr.js"></script>
 </head>
 <body>

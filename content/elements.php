@@ -7,9 +7,6 @@
  * see if you missed some.
  * 
  * @author Volker Otto <hello@volkerotto.net>
- * @link https://github.com/l4ci/phpBuilder
- * @copyright Copyright 2009-2013 Volker Otto
- * @license http://www.opensource.org/licenses/mit-license.php MIT License
  * @package phpBuilder
  *  
  */

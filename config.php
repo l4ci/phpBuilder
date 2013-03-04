@@ -1,15 +1,12 @@
 <?php
-if(!isset($root)) die('Direct access is not allowed');
+
+helper_protect();
 
 /**
  * config.php
  *
  * Stores all the c:: vars
  * 
- * @author Volker Otto <hello@volkerotto.net>
- * @link https://github.com/l4ci/phpBuilder
- * @copyright Copyright 2009-2013 Volker Otto
- * @license http://www.opensource.org/licenses/mit-license.php MIT License
  * @package phpBuilder
  * 
  */
@@ -26,10 +23,13 @@ c::set('lib'					,'lib');
 c::set('assets'					,'assets');
 c::set('content.site'			,'content');
 
-// SITE INFORMATION
-c::set('site.wartung'			,false);
-c::set('site.googleanalytics'	,'UA-XXXXXX-XX');
+// SERVER CONFIG
+c::set('server.dev'				,true);
+c::set('server.subfolder'		,false);
 
+// SITE INFORMATION
+c::set('site.maintenance'		,false);
+c::set('site.googleanalytics'	,'UA-XXXXXX-XX');
 c::set('site.name'				,'Title');
 
 ?>
