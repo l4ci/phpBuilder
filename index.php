@@ -11,13 +11,18 @@
  * @package phpBuilder
  */
  
-// Require lib
-require_once('lib.php');
+// Init Protection
+$root = $_SERVER['DOCUMENT_ROOT'];
+
+// Require kirby
+require_once('kirby.php');
+
 // Load global config
 load('config');
 
-// Initialize Protect
-helper_protect(false);
+// Require lib
+require_once('lib.php');
+
 // Error Reporting
 helper_error_report(true);
 
