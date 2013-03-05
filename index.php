@@ -1,6 +1,6 @@
 <?php
 /**
- * phpBuilder -- an easy to use toolkit for PHP
+ * phpBuilder -- an easy to use starterkit for PHP
  *
  * @version 0.5
  *
