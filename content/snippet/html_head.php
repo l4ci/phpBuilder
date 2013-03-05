@@ -13,7 +13,7 @@
 	<!-- formalize.css -->
 	<link rel="stylesheet" href="assets/css/formalize.css">
 	<!-- style.css -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/main.css">
 	
 	<!-- modernizr.js -->
 	<script src="assets/script/modernizr.js"></script>
