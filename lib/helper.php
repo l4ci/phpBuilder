@@ -21,19 +21,4 @@ function helper_error_report($status=false){
 		error_reporting(0);
 	}
 }
-
-/**
-  * protect
-  *
-  * @param boolean is_root set false: not root document - no direct acces
-  */
-function helper_protect($is_root=false) {
-	global $root;
-	if ($is_root === false) {
-		// Direct Access Protection
-		$root = $_SERVER['DOCUMENT_ROOT'];
-	}else{
-		if(!isset($root)) die('Direct access is not allowed');
-	}
-}
 ?>
