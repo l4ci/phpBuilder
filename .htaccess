@@ -77,6 +77,13 @@ Options FollowSymLinks
 RewriteEngine On
 RewriteBase /
 
+# block all files in the content folder from being accessed directly
+RewriteRule ^content/(.*) error&e=no_access [R=301,L]
+RewriteRule ^content/site(.*) error&e=no_access [R=301,L]
+
+# block all files in the site folder from being accessed directly
+RewriteRule ^lib/(.*) error&e=no_access [R=301,L]
+
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)$ index.php?a=$1 [L,QSA]
