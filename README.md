@@ -8,14 +8,13 @@ Welcome to phpBuilder – an easy to use toolkit for PHP. It's mainly for my per
 - jQuery v1.9.1
 - Modernizr 2.6.2
 - kirby Toolkit 0.94
-- formalize 1.2
 - typeplate 1.0
 
 ## Requirements
 phpBuilder likes PHP 5, Apache on unix systems and MySQL. Everything else is not supported.
 
 ## License & Author
-- Version: phpBuilder 0.5
+- Version: phpBuilder 0.51
 - License: [MIT License][license]
 - Copyright: 2009-2013 Volker Otto
 - Web: [volkerotto.net][web]
