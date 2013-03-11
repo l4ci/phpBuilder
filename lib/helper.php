@@ -13,7 +13,8 @@
   *
   * @param boolean status set true = error_reporting: on;
   */
-function helper_error_report($status=false){
+function helper_error_report(){
+	$status = c::get('server.error_reporting',false);
 	if ($status === true){
 		error_reporting(E_ALL);
 		ini_set("display_errors", 1);
@@ -21,4 +22,10 @@ function helper_error_report($status=false){
 		error_reporting(0);
 	}
 }
+<<<<<<< HEAD
 ?>
+=======
+
+
+?>
+>>>>>>> Minor Changes

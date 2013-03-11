@@ -9,7 +9,7 @@
  */
 function snippet($request){
 	
-	$source      = c::get('content.site')."/".c::get('snippet');
+	$source      = c::get('content.snippet');
 	$snippets    = dir::read($source);
 
 	// check if snippet file is available
