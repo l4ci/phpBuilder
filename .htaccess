@@ -73,7 +73,7 @@
 
 
 <IfModule mod_rewrite.c>
-Options FollowSymLinks
+Options +FollowSymLinks
 RewriteEngine On
 RewriteBase /
 
