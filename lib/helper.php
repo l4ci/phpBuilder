@@ -22,10 +22,5 @@ function helper_error_report(){
 		error_reporting(0);
 	}
 }
-<<<<<<< HEAD
-?>
-=======
-
 
 ?>
->>>>>>> Minor Changes
