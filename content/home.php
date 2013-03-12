@@ -1,6 +1,16 @@
 <?php snippet('html_head'); ?>
+<?php snippet('nav'); ?>
 
-<h1>Home</h1>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas magnam quae tempore facere assumenda laboriosam explicabo asperiores inventore ipsum aut. Illum laboriosam eius dolores vitae libero repellat aperiam nisi iure molestias doloribus expedita nostrum perferendis ab. Ipsam quaerat rerum iste dolorem atque obcaecati quisquam. Cumque porro minus hic dicta natus? Voluptates ratione tenetur laborum omnis iste nulla placeat id temporibus similique non tempora eius odit? Maiores dolore asperiores ipsa consequatur eum facilis magnam eaque a consequuntur qui modi neque temporibus praesentium et corporis quae nihil ad nam voluptates dignissimos. Nobis magni iusto id eius iure doloribus eligendi aperiam molestiae eaque fugit accusantium modi nulla itaque odio laborum alias provident tenetur officiis reiciendis omnis expedita recusandae ipsa ab labore quidem repellat facere atque aliquid inventore quasi. Consequuntur voluptates molestias ab ducimus libero asperiores eligendi quis suscipit cumque ipsam quo laboriosam omnis minima qui placeat deserunt est. Ab eaque voluptas saepe facilis aliquam voluptate magni dolores amet quod fugit. Tenetur possimus dolor officiis officia quis mollitia expedita fugit quisquam debitis nemo accusamus quaerat molestiae totam! Labore impedit maxime nihil veritatis suscipit assumenda soluta iusto excepturi ipsam dolorem obcaecati perferendis laborum nostrum molestiae quasi commodi ad eos? Hic architecto accusamus ipsa nostrum numquam!</p>
+<h1>phpBuilder <?=c::get('pB.version');?></h1>
+<p>
+	If you can read this you have everything installed corecctly. I think.<br>
+	Go on filling your pages with something - they are located in /content.
+</p>
+
+<h2>Any questions left?</h2>
+<p>
+	Check the <a href="<?=c::get('pB.git')?>">github page</a>.<br>
+	Or mail me <a href="mailto:<?=c::get('pB.email')?>"><?=c::get('pB.email')?></a>
+</p>
 
 <?php snippet('html_foot'); ?>

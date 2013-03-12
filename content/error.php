@@ -1,4 +1,5 @@
 <?php snippet('html_head'); ?>
+<?php snippet('nav'); ?>
 
 <?php
 /**
