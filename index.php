@@ -2,7 +2,7 @@
 /**
  * phpBuilder -- an easy to use toolkit for PHP
  *
- * @version 0.51
+ * @version 0.52
  *
  * @author Volker Otto <hello@volkerotto.net>
  * @link https://github.com/l4ci/phpBuilder
