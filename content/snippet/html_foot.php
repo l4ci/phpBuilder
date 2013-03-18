@@ -3,7 +3,7 @@
 <script>window.jQuery || document.write('<script src="assets/script/jquery-1.9.1.min.js"><\/script>')</script>
 
 <!-- main.js file -->
-<script src="assets/script/main.js"></script>
+<script src="assets/script/main.min.js"></script>
 
 <!-- Google Analytics -->
 <script>
