@@ -10,9 +10,9 @@ if(!isset($root)) die('Direct access is not allowed');
  */
 
 // phpBuilder 
-c::set('pB.version'				,'0.52');
+c::set('pB.version'				,'0.53');
 c::set('pB.git'					,'https://github.com/l4ci/phpBuilder');
-c::set('pB.mail'				,'hello@volkerotto.net');
+c::set('pB.email'				,'hello@volkerotto.net');
 
 // FOLDERS 
 c::set('lib'					,'lib');

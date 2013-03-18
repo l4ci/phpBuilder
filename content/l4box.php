@@ -4,21 +4,23 @@
 <h1>Sample of the l4box</h1>
 <button class="toggleov" name="l4overlaay">Open l4box with overlay</button>
 <button class="toggle" name="l4normal">Open l4box without overlay</button>
+<button class="toggle" name="l4tabs">Open l4box with tabs</button>
 
+<p>l4boxes are little or big popup windows. They can have a overlay. When clicked they add an anchor to the url - so when the page gets reloaded the popup is still visible.</p>
 
-<div class="box" id="l4overlaay">	<a class="close">x</a>
+<div class="l4box" id="l4overlaay">	<a class="close">x</a>
     <div class="fulltext">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur ea eos doloremque quibusdam laudantium facere repellat reprehenderit numquam vero minus aut autem. Quasi non fugit cumque tenetur possimus eos impedit.</p>
     </div>
 </div>
 
-<div class="box" id="l4normal"> <a class="close">x</a>
+<div class="l4box" id="l4normal"> <a class="close">x</a>
     <div class="fulltext">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur ea eos doloremque quibusdam laudantium facere repellat reprehenderit numquam vero minus aut autem. Quasi non fugit cumque tenetur possimus eos impedit.</p>
     </div>
 </div>
 
-<div class="box" id="l4tabs">
+<div class="l4box" id="l4tabs">
     <div class="title">Title <span class="close">Close</span></div>
     <div class="tabbar">
         <ul>

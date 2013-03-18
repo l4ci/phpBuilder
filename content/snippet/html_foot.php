@@ -2,8 +2,6 @@
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="assets/script/jquery-1.9.1.min.js"><\/script>')</script>
 
-<!-- formalize.min.js -->
-<script src="assets/script/jquery.formalize.min.js"></script>
 <!-- main.js file -->
 <script src="assets/script/main.js"></script>
 
